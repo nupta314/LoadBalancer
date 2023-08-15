@@ -18,7 +18,7 @@ Before running ensure that the ports in range 65400-65402 are free
 
 Edit 1:
 All 4 parts have been implemented using pnlb.py and pnsrv.x.py series of files  
-for example number of servers is N, then:  
+For example number of servers is N, then:  
     1. Make files pnsrv.x.py where x is 1 to N, copy paste exact contents from file pnsrv.py  
     2. Run servers pnsrv.x.py where x is 1 to N  
     3. Then edit the pnlb.py file to make n=N  
