@@ -3,10 +3,10 @@
 This is the implementation of the task given in the 3 hr coding round for an Placement Oppurtunity .
 
 The task had following parts:
-    1.Implement a simple get/put/delete server
-    2.Implement a load balancer
-    3.Add persistence
-    4.(Bonus) Generalize the load balancer for N servers
+    1.Implement a simple get/put/delete server  
+    2.Implement a load balancer  
+    3.Add persistence  
+    4.(Bonus) Generalize the load balancer for N servers  
 
 3 of the 4 parts have been implemented. This is also what I did in that round.
 
