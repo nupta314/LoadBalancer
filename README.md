@@ -19,13 +19,13 @@ Before running ensure that the ports in range 65400-65402 are free
 Edit 1:
 All 4 parts have been implemented using pnlb.py and pnsrv.x.py series of files  
 for example number of servers is N, then:  
-    1.make files pnsrv.x.py where x is 1 to N, copy paste exact contents from file pnsrv.py  
-    2.run servers pnsrv.x.py where x is 1 to N  
-    3.then edit the pnlb.py file to make n=N  
-    4.then run pnlb.py  
-    5.then run pclient.py  
+    1. Make files pnsrv.x.py where x is 1 to N, copy paste exact contents from file pnsrv.py  
+    2. Run servers pnsrv.x.py where x is 1 to N  
+    3. Then edit the pnlb.py file to make n=N  
+    4. Then run pnlb.py  
+    5. Then run pclient.py  
 
 Note:  
-    1.Remember to give 2 seconds gap between consecutive commands because python is slow and will mess up.  
-    2.Do not run pnsrv.py, its not for running.  
-    3.Make sure port range 65400 to 65400+N is free.  
+    1. Remember to give 2 seconds gap between consecutive commands because python is slow and will mess up.  
+    2. Do not run pnsrv.py, its not for running.  
+    3. Make sure port range 65400 to 65400+N is free.  
